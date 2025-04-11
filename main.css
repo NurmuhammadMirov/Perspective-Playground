@@ -41,6 +41,11 @@ main {
 main label{
   display: block;
 }
+
+label:first-child {
+  margin-bottom: 10px;
+}
+
 main input[type="range"] {
   display: block;
   margin-bottom: 10px;
